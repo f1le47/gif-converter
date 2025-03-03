@@ -28,14 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrameContainer));
+            this.SuspendLayout();
+            // 
+            // FrameContainer
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 510);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Main";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FrameContainer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.components = new System.ComponentModel.Container();
             this.Text = "Main";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

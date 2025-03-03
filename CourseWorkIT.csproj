@@ -74,6 +74,9 @@
     <Compile Include="stores\FramesStore.cs" />
     <Compile Include="stores\GifStore.cs" />
     <Compile Include="stores\SettingsStore.cs" />
+    <EmbeddedResource Include="forms\FrameContainer.resx">
+      <DependentUpon>FrameContainer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\GifCreator.resx">
       <DependentUpon>GifCreator.cs</DependentUpon>
     </EmbeddedResource>
