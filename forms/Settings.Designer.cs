@@ -97,6 +97,7 @@
             this.height_input.Size = new System.Drawing.Size(189, 19);
             this.height_input.TabIndex = 2;
             this.height_input.TextChanged += new System.EventHandler(this.height_input_TextChanged);
+            this.height_input.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.height_input_KeyPress);
             // 
             // panel6
             // 
@@ -118,6 +119,7 @@
             this.width_input.Size = new System.Drawing.Size(189, 19);
             this.width_input.TabIndex = 2;
             this.width_input.TextChanged += new System.EventHandler(this.width_input_TextChanged);
+            this.width_input.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.width_input_KeyPress);
             // 
             // gif_resolution
             // 
@@ -150,6 +152,7 @@
             this.delay_input.Size = new System.Drawing.Size(396, 19);
             this.delay_input.TabIndex = 2;
             this.delay_input.TextChanged += new System.EventHandler(this.delay_input_TextChanged);
+            this.delay_input.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.delay_input_KeyPress);
             // 
             // panel3
             // 
