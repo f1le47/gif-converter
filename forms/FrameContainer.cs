@@ -32,7 +32,7 @@ namespace CourseWorkIT.forms
         private void ChangePosition(object sender, Point newPosition)
         {
             this.Left = newPosition.X;
-            this.Top = newPosition.Y;
+            this.Top = newPosition.Y;   
         }
     }
 }
