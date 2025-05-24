@@ -128,9 +128,9 @@
             this.gif_resolution.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(125)))), ((int)(((byte)(61)))));
             this.gif_resolution.Location = new System.Drawing.Point(-3, 3);
             this.gif_resolution.Name = "gif_resolution";
-            this.gif_resolution.Size = new System.Drawing.Size(350, 19);
+            this.gif_resolution.Size = new System.Drawing.Size(361, 19);
             this.gif_resolution.TabIndex = 3;
-            this.gif_resolution.Text = "GIF resolution (width x height)";
+            this.gif_resolution.Text = "Разрешение GIF (ширина x высота)";
             // 
             // panel4
             // 
@@ -169,9 +169,9 @@
             this.input_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(125)))), ((int)(((byte)(61)))));
             this.input_label.Location = new System.Drawing.Point(-3, 3);
             this.input_label.Name = "input_label";
-            this.input_label.Size = new System.Drawing.Size(372, 19);
+            this.input_label.Size = new System.Drawing.Size(394, 19);
             this.input_label.TabIndex = 3;
-            this.input_label.Text = "Delay between frames (in seconds)";
+            this.input_label.Text = "Задержка между кадрами (в секундах)";
             // 
             // panel2
             // 
@@ -210,7 +210,7 @@
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(429, 101);
             this.title.TabIndex = 0;
-            this.title.Text = "Settings";
+            this.title.Text = "Настройки";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.title.MouseDown += new System.Windows.Forms.MouseEventHandler(this.title_MouseDown);
             this.title.MouseMove += new System.Windows.Forms.MouseEventHandler(this.title_MouseMove);

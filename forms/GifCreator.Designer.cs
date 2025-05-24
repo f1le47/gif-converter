@@ -97,7 +97,7 @@
             this.create_gif.Name = "create_gif";
             this.create_gif.Size = new System.Drawing.Size(405, 58);
             this.create_gif.TabIndex = 2;
-            this.create_gif.Text = "Create GIF";
+            this.create_gif.Text = "Создать GIF";
             this.create_gif.UseVisualStyleBackColor = false;
             this.create_gif.Visible = false;
             this.create_gif.Click += new System.EventHandler(this.create_gif_Click);
@@ -117,7 +117,7 @@
             this.add_images.Name = "add_images";
             this.add_images.Size = new System.Drawing.Size(405, 58);
             this.add_images.TabIndex = 1;
-            this.add_images.Text = "Add images";
+            this.add_images.Text = "Добавить изображения";
             this.add_images.UseVisualStyleBackColor = false;
             this.add_images.Click += new System.EventHandler(this.add_images_Click);
             // 
@@ -175,7 +175,7 @@
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(429, 101);
             this.title.TabIndex = 0;
-            this.title.Text = "Images to GIF";
+            this.title.Text = "Изображения в GIF";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.title.MouseDown += new System.Windows.Forms.MouseEventHandler(this.title_MouseDown);
             this.title.MouseMove += new System.Windows.Forms.MouseEventHandler(this.title_MouseMove);
