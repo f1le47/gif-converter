@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using CourseWorkIT.store;
 using CourseWorkIT.stores;
 using System.Drawing;
+using CourseWorkIT.consts;
 
 namespace CourseWorkIT.forms
 {
@@ -27,6 +28,8 @@ namespace CourseWorkIT.forms
             firstFrame.Visible = true;
 
             framesStore.PositionChanged += ChangePosition;
+
+            this.Text = Consts.APP_NAME;
         }
 
         private void ChangePosition(object sender, Point newPosition)

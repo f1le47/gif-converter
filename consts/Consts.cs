@@ -4,6 +4,7 @@
     {
         public static string ADD_MINIMUM_ONE_IMAGE = "Как минимум одно изображение";
         public static string GIF_SUCCESSFUL = "GIF успешно создан";
+        public static string APP_NAME = "GIF Creator";
         public static string ALLOWED_FILE_EXTENSIONS = "Image Files|*.png;*.jpg;*.jpeg;*.bmp";
         public static string SAVE_FILE_EXTENSION = "GIF Image|*.gif";
         public static int DEFAULT_FRAME_DELAY = 1;
