@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using CourseWorkIT.forms;
-using CourseWorkIT.store;
-using CourseWorkIT.stores;
-using System.Collections.Generic;
 
 namespace CourseWorkIT
 {
